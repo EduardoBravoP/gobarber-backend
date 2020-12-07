@@ -13,7 +13,7 @@ import UserAvatarController from '../controllers/UserAvatarController'
 import { celebrate, Joi, Segments } from 'celebrate'
 
 const usersRouter = Router()
-const upload = multer(uploadConfig)
+const upload = multer(uploadConfig.multer)
 const usersController = new UsersController()
 const userAvatarController = new UserAvatarController()
 
