@@ -49,8 +49,6 @@ class AuthenticateUserService {
             expiresIn,
         })
 
-        // Usuárion autenticado
-
         return {
             user,
             token
