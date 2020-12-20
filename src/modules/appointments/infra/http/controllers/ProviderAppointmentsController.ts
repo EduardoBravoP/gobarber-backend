@@ -1,13 +1,13 @@
 import CreateAppointmentService from '@modules/appointments/services/CreateAppointmentService'
 import ListProviderAppointmentsService from '@modules/appointments/services/ListProviderApppointmentsService'
-import { parseISO } from 'date-fns'
+import { classToClass } from 'class-transformer'
 import { Request, Response } from 'express'
 import { container } from 'tsyringe'
 
 export default class ProviderAppointmentsController{
     public async index(request: Request, response: Response): Promise<Response> {
         const provider_id = request.user.id
-        const { day, month, year } = request.params
+        const { day, month, year } = request.query
 
         const listProviderAppointments = container.resolve(ListProviderAppointmentsService)
 
@@ -17,6 +17,6 @@ export default class ProviderAppointmentsController{
             month: Number(month),
             provider_id })
 
-        return response.json(appointments)
+        return response.json(classToClass(appointments))
     }
 }
