@@ -1,5 +1,5 @@
 <img src="./github/logo.jpg" alt="gobarber">
-<p style="display: flex;align-items: center;justify-content: center;">The simplest way to organize yourself.</p>
+<p align="center">The simplest way to organize yourself.</p>
 <hr />
 
 ## About 🔎:
