@@ -2,6 +2,9 @@
 <p align="center">The simplest way to organize yourself.</p>
 <hr />
 
+<img src="./github/navegacao.gif" alt="gobarber">
+<img src="./github/navegacao2.gif" alt="gobarber">
+
 ## About 🔎:
 #### This API provides multiple features, such as:
 - Create a new appointment;
