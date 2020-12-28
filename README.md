@@ -4,6 +4,8 @@
 
 <img src="./github/navegacao.gif" alt="gobarber">
 <img src="./github/navegacao2.gif" alt="gobarber">
+<img src="./github/navegacaoMobile.gif" alt="gobarber">
+<img src="./github/navegacaoMobile2.gif" alt="gobarber">
 
 ## About 🔎:
 #### This API provides multiple features, such as:
