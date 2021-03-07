@@ -33,3 +33,18 @@
 - PostgreSQL
 - Redis
 - MongoDB
+
+## Run 🚀:
+# Clone this repository
+$ git clone https://github.com/EduardoBravoP/gobarber-backend.git
+
+# Go into the repository
+$ cd gobarber-backend
+
+# Install dependencies
+$ yarn
+
+# Run the application in development mode
+$ yarn dev
+
+# The server will start on port:3333
